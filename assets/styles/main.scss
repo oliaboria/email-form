@@ -3,4 +3,8 @@
 @import '_fonts';
 @import '_typography';
 
-@import '_emails-form';
+@import './_emails-form';
+
+.bold {
+    font-weight: bold;
+}
