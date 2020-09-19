@@ -22,6 +22,9 @@
         "url": "https://github.com/oliaboria/email-form/issues"
     },
     "homepage": "https://github.com/oliaboria/email-form#readme",
+    "dependencies": {
+        "emails-input": "https://github.com/oliaboria/emails-input/tarball/master"
+    },
     "devDependencies": {
         "@babel/preset-typescript": "^7.10.4",
         "@typescript-eslint/eslint-plugin": "^4.1.0",
