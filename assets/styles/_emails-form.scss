@@ -22,5 +22,16 @@
 
     .buttons-section {
         padding-top: 24px;
+
+        .button {
+            @include regular-text;
+            margin-right: 16px;
+            padding: 8px 16px;
+            color: $white;
+            text-align: center;
+            background-color: $color-blue-400;
+            border: none;
+            border-radius: 6px;
+        }
     }
 }
