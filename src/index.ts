@@ -1,5 +1,7 @@
 import EmailsInput from 'emails-input';
 
-import './index.scss';
+import '../assets/styles/main.scss';
 
-console.log('Hello world');
+const container = document.getElementById('emails-input');
+
+const element = new EmailsInput(container);

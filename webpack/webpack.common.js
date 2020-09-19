@@ -48,9 +48,14 @@ const CONFIG = {
         rules: [
             {
                 test: /\.ts$/,
-                exclude: /(node_modules)/,
+                exclude: /node_modules\/(?!(emails-input)\/).*/,
                 use: [
-                    'ts-loader',
+                    {
+                        loader: 'ts-loader',
+                        options: {
+                            allowTsInNodeModules: true,
+                        },
+                    },
                     {
                         loader: 'eslint-loader',
                         options: {
