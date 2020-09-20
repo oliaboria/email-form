@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/oliaboria/email-form#readme",
     "dependencies": {
-        "emails-input": "https://github.com/oliaboria/emails-input/tarball/master"
+        "emails-input": "https://github.com/oliaboria/emails-input/tarball/dist"
     },
     "devDependencies": {
         "@babel/preset-typescript": "^7.10.4",
@@ -55,6 +55,7 @@
         "terser-webpack-plugin": "^4.2.0",
         "ts-loader": "^8.0.3",
         "typescript": "^4.0.2",
+        "url-loader": "^4.1.0",
         "webpack": "^4.44.1",
         "webpack-cli": "^3.3.12",
         "webpack-dev-server": "^3.11.0",

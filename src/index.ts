@@ -3,6 +3,7 @@ import EmailsInput from 'emails-input';
 import '../assets/styles/main.scss';
 
 const container = document.getElementById('emails-input');
+
 const emailsInput = new EmailsInput(container);
 
 const addEmailBtn = document.getElementById('add-email-btn');
